@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="" />
+    <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/API_Section/API_Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,9 +43,113 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/API-Project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.API_Task">
+    <configuration name="API_Task" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_Section" />
+      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Task.Get_all_posts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_Section" />
+      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
+      <option name="METHOD_NAME" value="Get_all_posts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Task.Get_post_by_id" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_Section" />
+      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
+      <option name="METHOD_NAME" value="Get_post_by_id" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Task.RegistrationSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_Section" />
+      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
+      <option name="METHOD_NAME" value="RegistrationSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Task.createPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_Section" />
+      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
+      <option name="METHOD_NAME" value="createPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.API_Task" />
+        <item itemvalue="TestNG.API_Task.createPost" />
+        <item itemvalue="TestNG.API_Task.Get_post_by_id" />
+        <item itemvalue="TestNG.API_Task.RegistrationSuccessful" />
+        <item itemvalue="TestNG.API_Task.Get_all_posts" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +160,20 @@
       <updated>1680580716147</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/API_Section/API_Task.java</url>
+          <line>26</line>
+          <properties class="com.API_Section.API_Task" method="Get_post_by_id">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
