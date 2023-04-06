@@ -1,5 +1,6 @@
 package com.API_Section;
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
@@ -40,11 +41,10 @@ public class API_Task {
 baseURI = "https://jsonplaceholder.typicode.com/";
         JSONObject requst = new JSONObject();
         requst.put("userid",20);
-        requst.put("id",2135);
         requst.put("title","tjrkiruhs");
         requst.put("body","nmfbjkdf");
         System.out.println(requst);
-        given().body(requst.toString()).
+        given().header("Content-Type","application/json").contentType(ContentType.JSON).accept(ContentType.JSON).body(requst.toString()).
                 when().post("posts").
                 then().statusCode(201).log().all();
 
