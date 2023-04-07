@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/API_Section/API_Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/API_Section/API_Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,80 +45,51 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/API-Project",
+    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.API_Task.createPost">
-    <configuration name="API_Task" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Testing carrer\ITI\Auto Project\VodaTask\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: A user want to buy a product from the store without filling">
+    <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="VodaTask" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.API_Section" />
-      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="API_Task.Get_all_posts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: A user want to buy a product from the store without filling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="VodaTask" />
+      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.API_Section" />
-      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
-      <option name="METHOD_NAME" value="Get_all_posts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_Task.Get_post_by_id" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VodaTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.API_Section.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.API_Section" />
-      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
-      <option name="METHOD_NAME" value="Get_post_by_id" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_Task.RegistrationSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VodaTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.API_Section.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.API_Section" />
-      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
-      <option name="METHOD_NAME" value="RegistrationSuccessful" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,13 +112,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Steps.user_open_vodafone_shop_website_and_go_to_shop_page" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GUI_Task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.GUI_Task" />
+      <option name="MAIN_CLASS_NAME" value="com.GUI_Task.Steps" />
+      <option name="METHOD_NAME" value="user_open_vodafone_shop_website_and_go_to_shop_page" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Steps.user_select_english_language" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VodaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GUI_Task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.GUI_Task" />
+      <option name="MAIN_CLASS_NAME" value="com.GUI_Task.Steps" />
+      <option name="METHOD_NAME" value="user_select_english_language" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling" />
+        <item itemvalue="TestNG.Steps.user_select_english_language" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="TestNG.Steps.user_open_vodafone_shop_website_and_go_to_shop_page" />
         <item itemvalue="TestNG.API_Task.createPost" />
-        <item itemvalue="TestNG.API_Task" />
-        <item itemvalue="TestNG.API_Task.Get_post_by_id" />
-        <item itemvalue="TestNG.API_Task.RegistrationSuccessful" />
-        <item itemvalue="TestNG.API_Task.Get_all_posts" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +180,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java</url>
+          <line>23</line>
+          <properties class="com.GUI_Task.Steps" method="user_select_english_language">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
