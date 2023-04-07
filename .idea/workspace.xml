@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckoutPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/VodaTask&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\Testing carrer\ITI\Auto Project\VodaTask\src\test\java" />
@@ -94,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="API_Task.createPost" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Steps.go_to_via_shop_by_brand_section" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VodaTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.API_Section.*" />
+          <option name="PATTERN" value="com.GUI_Task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.API_Section" />
-      <option name="MAIN_CLASS_NAME" value="com.API_Section.API_Task" />
-      <option name="METHOD_NAME" value="createPost" />
+      <option name="PACKAGE_NAME" value="com.GUI_Task" />
+      <option name="MAIN_CLASS_NAME" value="com.GUI_Task.Steps" />
+      <option name="METHOD_NAME" value="go_to_via_shop_by_brand_section" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,8 +159,8 @@
         <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling" />
         <item itemvalue="TestNG.Steps.user_select_english_language" />
         <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="TestNG.Steps.go_to_via_shop_by_brand_section" />
         <item itemvalue="TestNG.Steps.user_open_vodafone_shop_website_and_go_to_shop_page" />
-        <item itemvalue="TestNG.API_Task.createPost" />
       </list>
     </recent_temporary>
   </component>
@@ -180,15 +186,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java</url>
-          <line>23</line>
-          <properties class="com.GUI_Task.Steps" method="user_select_english_language">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
