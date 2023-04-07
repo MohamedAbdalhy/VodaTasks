@@ -8,15 +8,22 @@ import org.example.BasketPage;
 import org.example.HomePageElements;
 import org.example.ProductList;
 import org.example.ProductPage;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
 
 public class Steps {
     WebDriver driver;
@@ -24,13 +31,22 @@ public class Steps {
     ProductList productList ;
     ProductPage productPage ;
     BasketPage basketPage ;
-    @Given(": User open Vodafone Shop website and go to shop Page")
-    public void user_open_vodafone_shop_website_and_go_to_shop_page() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.navigate().to("https://eshop.vodafone.com.eg/eshop/");
+    Properties properties = new Properties();
 
+
+    @Given(": User open Vodafone Shop website and go to shop Page")
+    public void user_open_vodafone_shop_website_and_go_to_shop_page() throws InterruptedException, IOException {
+        FileInputStream fis = new FileInputStream(new File("src/main/java/ConfigrationFile.properities"));
+        properties.load(fis);
+if (properties.getProperty("browser").equalsIgnoreCase("chrome")){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();}
+else if (properties.getProperty("browser").equalsIgnoreCase("firefox")){
+    WebDriverManager.firefoxdriver().setup();
+    driver = new FirefoxDriver();}
+else { throw new Error("browser not supported") ;}
+        driver.manage().window().maximize();
+        driver.navigate().to(properties.getProperty("url"));
     }
     @Test
     @When(": user select English language")
@@ -94,17 +110,13 @@ public class Steps {
     }
 
     @When(": Leave Personal info. Tab empty.")
-        public void user_cant_continue_after_fill_peesonal_information () throws InterruptedException {
+        public void Leave_Personal_info_Tab_empty () throws InterruptedException {
         driver.findElement(By.cssSelector("#collapseTwo > form > div > div > div.col-md-6.col-sm-12.checkout-formControl.checkout-formControl1 > div:nth-child(1) > input")).sendKeys(Keys.ENTER);
             Thread.sleep(3000);
         }
-        @Test
+@org.junit.Test
 @Then(": Show Readable error massage from  “Full Name” field.")
-    public void dsdsd (){
+    public void Show_Readable_error_massage_from_Full_Name_field (){
     Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"collapseTwo\"]/form/div/div/div[1]/div[1]/app-alert/div/div/div/div[2]/div/div/div")).isDisplayed());
-
 }
-
-
     }
-

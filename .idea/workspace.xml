@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckoutPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConfigrationFile.properities" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
     </list>
@@ -62,7 +57,7 @@
       <recent name="C:\Users\user\Desktop\Testing carrer\ITI\Auto Project\VodaTask\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: A user want to buy a product from the store without filling">
+  <component name="RunManager" selected="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information">
     <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
@@ -70,6 +65,26 @@
       <module name="VodaTask" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: A user want to buy a product from the store without filling Personal information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
+      <option name="GLUE" value="com.GUI_Task" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="VodaTask" />
+      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling Personal information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling Personal information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling Personal information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -118,24 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Steps.user_open_vodafone_shop_website_and_go_to_shop_page" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VodaTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.GUI_Task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.GUI_Task" />
-      <option name="MAIN_CLASS_NAME" value="com.GUI_Task.Steps" />
-      <option name="METHOD_NAME" value="user_open_vodafone_shop_website_and_go_to_shop_page" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Steps.user_select_english_language" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VodaTask" />
       <extension name="coverage">
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling" />
         <item itemvalue="TestNG.Steps.user_select_english_language" />
-        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="TestNG.Steps.go_to_via_shop_by_brand_section" />
-        <item itemvalue="TestNG.Steps.user_open_vodafone_shop_website_and_go_to_shop_page" />
       </list>
     </recent_temporary>
   </component>

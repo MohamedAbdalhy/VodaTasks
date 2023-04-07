@@ -1,5 +1,5 @@
 Feature: Test checkout functionality
-  Scenario: A user want to buy a product from the store without filling
+  Scenario: A user want to buy a product from the store without filling Personal information
     Given : User open Vodafone Shop website and go to shop Page
     When : user select English language
     And : Go to Iphone via “Shop By Brand” section
