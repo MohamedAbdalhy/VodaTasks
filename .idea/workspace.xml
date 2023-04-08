@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manual Testing.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Manual Testing.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigrationFile.properities" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigrationFile.properities" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
     </list>
@@ -79,6 +79,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: A user want to buy a product from the store without filling Personal information on chrome browser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
+      <option name="GLUE" value="com.GUI_Task" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="VodaTask" />
+      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling Personal information on chrome browser$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling Personal information on chrome browser$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling Personal information on chrome browser" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: A user want to buy a product from the store without filling Personal information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
@@ -133,31 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Steps.user_select_english_language" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VodaTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.GUI_Task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.GUI_Task" />
-      <option name="MAIN_CLASS_NAME" value="com.GUI_Task.Steps" />
-      <option name="METHOD_NAME" value="user_select_english_language" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information" />
         <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information on chrome browser" />
+        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information" />
         <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling" />
-        <item itemvalue="TestNG.Steps.user_select_english_language" />
       </list>
     </recent_temporary>
   </component>
@@ -183,11 +185,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

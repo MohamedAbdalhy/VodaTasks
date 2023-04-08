@@ -5,6 +5,6 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/GUI_Task/checkout.feature")
+@CucumberOptions(features = "src/test/java/com/GUI_Task/checkout.feature",plugin = {"pretty","html:target/Cucumber-report"})
 public class Runner {
 }
