@@ -31,11 +31,11 @@ public class Steps {
     ProductList productList ;
     ProductPage productPage ;
     BasketPage basketPage ;
-    Properties properties = new Properties();
+     public Properties properties = new Properties();
 
 
-    @Given(": User open Vodafone Shop website and go to shop Page")
-    public void user_open_vodafone_shop_website_and_go_to_shop_page() throws InterruptedException, IOException {
+    @Given(": User open Vodafone Shop website and go to shop Page on chrome browser")
+    public void user_open_vodafone_shop_website_and_go_to_shop_page_on_chrome_browser() throws InterruptedException, IOException {
         FileInputStream fis = new FileInputStream(new File("src/main/java/ConfigrationFile.properities"));
         properties.load(fis);
 if (properties.getProperty("browser").equalsIgnoreCase("chrome")){
@@ -48,12 +48,27 @@ else { throw new Error("browser not supported") ;}
         driver.manage().window().maximize();
         driver.navigate().to(properties.getProperty("url"));
     }
+    @Given(": User open Vodafone Shop website and go to shop Page on firefox browser")
+    public void user_open_vodafone_shop_website_and_go_to_shop_page_on_firefox_browser() throws IOException {
+        FileInputStream fis = new FileInputStream(new File("src/main/java/ConfigrationFile.properities"));
+        properties.load(fis);
+        if (properties.getProperty("browser2").equalsIgnoreCase("chrome")){
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();}
+        else if (properties.getProperty("browser2").equalsIgnoreCase("firefox")){
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();}
+        else { throw new Error("browser not supported") ;}
+        driver.manage().window().maximize();
+        driver.navigate().to(properties.getProperty("url"));
+        throw new io.cucumber.java.PendingException();
+    }
     @Test
     @When(": user select English language")
     public void user_select_english_language() throws InterruptedException {
         //1
         driver.findElement(By.cssSelector("#profile-tab > span")).click();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
     }
 
     @When(": Go to Iphone via “Shop By Brand” section")
