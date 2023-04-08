@@ -31,7 +31,7 @@ public class API_Task {
                 .then().log().all().statusCode(200)
                         .assertThat().body("title",is(equalTo("sunt aut facere repellat provident occaecati excepturi optio reprehenderit")),
                         "userId",equalTo(1),"id",equalTo(1)
-                ,"body",is(not(empty())));
+                         ,"body",is(not(empty())));
 
     }
     @Test

@@ -83,12 +83,14 @@ else { throw new Error("browser not supported") ;}
     }
     @When(": Press add to cart.")
     public void press_add_to_cart() throws InterruptedException {
-        driver.findElement(By.cssSelector("body > app-root > div > app-product-details > div > div.productDetails > div > div.productDetails-paymentOptions > div > div > div.addToBasket-btn > button")).click();
+        driver.findElement(By.cssSelector("body > app-root > div > app-product-details > div > div.productDetails > div > div.productDetails-paymentOptions > div > div > div.addToBasket-btn > button"))
+                .click();
         Thread.sleep(3000);
     }
     @When(": Press Proceed to Checkout.")
     public void press_proceed_to_checkout() throws InterruptedException {
-        driver.findElement(By.cssSelector("body > app-root > div > app-shoping-cart > div > div.shopingCartContainer > div.shopingCartItemCont > div.shopingCartContainer-promoCode > div.shopingCartContainer-promoCode > div > div.cart_checkout.fontLightEnAr > button")).click();
+        driver.findElement(By.cssSelector("body > app-root > div > app-shoping-cart > div > div.shopingCartContainer > div.shopingCartItemCont > div.shopingCartContainer-promoCode > div.shopingCartContainer-promoCode > div > div.cart_checkout.fontLightEnAr > button"))
+                .click();
         Thread.sleep(3000);
     }
       @When(": Select “Delivery Options” as “Cairo” “Ain Shams”.")
@@ -100,8 +102,6 @@ else { throw new Error("browser not supported") ;}
         areaDropdown.selectByIndex(4);
         Thread.sleep(3000);
     }
-
-
 
     @When(": Select “Deliver to My Address”.")
     public void select_deliver_to_my_address() throws InterruptedException {
@@ -129,9 +129,9 @@ else { throw new Error("browser not supported") ;}
         driver.findElement(By.cssSelector("#collapseTwo > form > div > div > div.col-md-6.col-sm-12.checkout-formControl.checkout-formControl1 > div:nth-child(1) > input")).sendKeys(Keys.ENTER);
     Thread.sleep(2000);
     }
-@Then(": Show Readable error massage from  “Full Name” field.")
+    @Then(": Show Readable error massage from  “Full Name” field.")
     public void Show_Readable_error_massage_from_Full_Name_field (){
    Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"collapseTwo\"]/form/div/div/div[1]/div[1]/app-alert/div/div/div/div[2]/div/div/div")).isDisplayed());
-driver.quit();
+    driver.quit();
     }
     }
