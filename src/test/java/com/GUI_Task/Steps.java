@@ -14,11 +14,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 public class Steps {
@@ -62,12 +66,13 @@ else { throw new Error("browser not supported") ;}
 
     @When(": user select English language")
     public void user_select_english_language() throws InterruptedException {
-        driver.findElement(By.cssSelector("#profile-tab > span")).click();
+       driver.findElement(By.cssSelector("#profile-tab > span")).click();
         Thread.sleep(2000);
     }
 
     @When(": Go to Iphone via “Shop By Brand” section")
     public void go_to_via_shop_by_brand_section() throws InterruptedException {
+
         driver.findElement(By.xpath("/html/body/app-root/div/app-home-page/div/app-brand/div/div/div[1]/ul/li[7]/a")).click();
         Thread.sleep(10000);
     }
@@ -86,7 +91,7 @@ else { throw new Error("browser not supported") ;}
         driver.findElement(By.cssSelector("body > app-root > div > app-shoping-cart > div > div.shopingCartContainer > div.shopingCartItemCont > div.shopingCartContainer-promoCode > div.shopingCartContainer-promoCode > div > div.cart_checkout.fontLightEnAr > button")).click();
         Thread.sleep(3000);
     }
-    @When(": Select “Delivery Options” as “Cairo” “Ain Shams”.")
+      @When(": Select “Delivery Options” as “Cairo” “Ain Shams”.")
     public void select_delivery_options_as_cairo_ain_shams() throws InterruptedException {
         Select cityDropdown = new Select(driver.findElement(By.cssSelector("#headingOne > div.col-md-4.col-sm-12.checkout-dropdownCity.checkoutDeleiveryOptionsPhase2EditWidth > select")));
         cityDropdown.selectByValue("0");
@@ -127,5 +132,6 @@ else { throw new Error("browser not supported") ;}
 @Then(": Show Readable error massage from  “Full Name” field.")
     public void Show_Readable_error_massage_from_Full_Name_field (){
    Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"collapseTwo\"]/form/div/div/div[1]/div[1]/app-alert/div/div/div/div[2]/div/div/div")).isDisplayed());
-}
+driver.quit();
+    }
     }

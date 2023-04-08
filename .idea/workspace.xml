@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b09e64d3-ddd4-46d8-90a4-6bceae595179" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manual Testing.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Manual Testing.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,15 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: A user want to buy a product from the store without filling Personal information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: A user want to buy a product from the store without filling Personal information on firefox browser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
       <option name="GLUE" value="com.GUI_Task" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="VodaTask" />
-      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling Personal information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling Personal information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling Personal information" />
+      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling Personal information on firefox browser$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling Personal information on firefox browser$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling Personal information on firefox browser" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: A user want to buy a product from the store without filling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: A user want to buy a product from the store without filling Personal information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/GUI_Task/checkout.feature" />
+      <option name="GLUE" value="com.GUI_Task" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="VodaTask" />
-      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling" />
+      <option name="NAME_FILTER" value="^A user want to buy a product from the store without filling Personal information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A user want to buy a product from the store without filling Personal information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user want to buy a product from the store without filling Personal information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information on chrome browser" />
+        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information on firefox browser" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling Personal information" />
-        <item itemvalue="Cucumber Java.Scenario: A user want to buy a product from the store without filling" />
       </list>
     </recent_temporary>
   </component>
